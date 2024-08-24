@@ -3,7 +3,7 @@
     padding:0;
 }
 
-
+body{background-color: gray;}
 .container{
     width: 800px;
     margin: auto;
@@ -34,4 +34,13 @@
 
 .header ul li a:hover{
     background-color: salmon;
+}
+
+
+.container .hero{
+    background-image: url(laptop.jpg);
+    height: 300px;
+    border-top: 5px solid salmon;
+    margin-top: 5px;
+    border-bottom: 5px solid skyblue;
 }
