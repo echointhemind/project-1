@@ -9,3 +9,29 @@
     margin: auto;
     background-color: azure;
 }
+
+.header .judul{
+    font-family: arial;
+    font-size: 60px;
+    color: violet;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+
+
+.header ul li{
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.header ul li a{
+    text-decoration: none;
+}
+
+
+.header ul li a:hover{
+    background-color: salmon;
+}
