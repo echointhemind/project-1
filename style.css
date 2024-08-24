@@ -3,7 +3,7 @@
     padding:0;
 }
 
-body{background-color: gray;}
+body{background-color: grayt;}
 .container{
     width: 800px;
     margin: auto;
@@ -43,4 +43,28 @@ body{background-color: gray;}
     border-top: 5px solid salmon;
     margin-top: 5px;
     border-bottom: 5px solid skyblue;
+    background-position: 0 -50px;
+}
+
+
+
+.konten p a{
+    text-decoration: none;
+}
+
+
+
+.footer{
+    width: auto;
+    height: 50px;
+    background-color: blue;
+}
+
+
+
+.footer p{
+    text-align: center;
+    font-family: arial;
+    color: red;
+    line-height:50px ;
 }
