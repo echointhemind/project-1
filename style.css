@@ -9,12 +9,23 @@ html{
 
 body{background-color: gray;}
 
+.top-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background-color: aquamarine;
+    z-index: 99;
+}
+
 
 .container{
     width: 900px;
     margin: auto;
-    margin-top: -30px;
+    margin-top: 70px;
     background-color: azure;
+    position: relative;
 }
 
 .header .judul{
@@ -25,7 +36,15 @@ body{background-color: gray;}
     margin-left: 15px;
 }
 
-
+.header .facebook{
+    display: inline-block;
+    
+}
+.header .facebook img{
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
 
 .header ul li{
     display: inline-block;
@@ -77,9 +96,7 @@ body{background-color: gray;}
 }
 
 
-.main{
-    width: 700px;
-}
+
 
 .main .konten{
     width: 500px;
@@ -88,9 +105,21 @@ body{background-color: gray;}
     box-sizing: border-box;
 }
  .main .sidebar{
-    width: 150px;
+    width: 250px;
     float: right;
+    margin: 10px;
 
+}
+
+
+.sidebar img{
+    width: 200px;
+    margin-bottom: 25px;
+}
+
+
+.main .sidebar .tentang{
+    margin-bottom: 15px;
 }
 .clear{
     clear: both;
